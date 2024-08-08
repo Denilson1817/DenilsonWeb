@@ -4,9 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Denilson Perez C</title>
+    <!--Links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <!-- nav-bar -->
+     <div class="content-header">
+        <header>
+            <div class="logo">
+                <a href="#">Denilson</a>
+            </div>
+            <nav class="nav-bar">
+                <ul>
+                    <li><a href="#main" onclick="select()">Inicio</a></li>
+                    <li><a href="#about-me" onclick="select()">Sobre mi</a></li>
+                    <li><a href="#skills" onclick="select()">Habilidades</a></li>
+                    <li><a href="#cv" onclick="select()">Curriculum</a></li>
+                    <li><a href="#portfolio" onclick="select()">Portafolio</a></li>
+                    <li><a href="#contact" onclick="select()">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-bar-responsive" onclick="menuResponsive()"> 
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+     </div>
+
+     <!-- main -->
+      <section id="main" class="main">
+        <div id="particles-js"></div>
+            <div class="content-banner">
+                <div class="content-img">
+                    <img src="img/Deni.JPG" alt="Denilson img">
+                </div>
+                <h1>Denilson Perez Cortina</h1>
+                <h2>Developer Jr | Backend </h2>
+                <div class="redes">
+                    <a target="_blank" href="https://www.facebook.com/denilson.perez.14418/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a target="_blank" href="https://twitter.com/DenilsonPerezC"><i class="fa-brands fa-twitter"></i></a>
+                    <a target="_blank" href="https://github.com/Denilson1817"><i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" href="https://linkedin.com/in/denilson-perez-cortina/"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+    </section>
+<script src="js/particles.min.js"></script>
+<script src="js/particlesjs-config.json"></script>
 </body>
 </html>
