@@ -35,7 +35,7 @@ html{
     display: flex;
     list-style: none;
 }
-.nav-bar ul li a{
+.content-header header nav ul li a{
     text-align: none;
     color: #ffff;
     margin: 0 15px;
@@ -43,7 +43,7 @@ html{
     transition: .5s;
     text-decoration: none;
 }
-.nav-bar ul li a:hover{
+.content-header header nav ul li a:hover{
     color: #4cc756;
 }
 .nav-bar-responsive{
@@ -561,4 +561,68 @@ footer .up{
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
+}
+/* responsive */
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .nav-bar-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #252A2E;
+        width: 180px;
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:700px){
+    .about-me .row{
+        display: block;
+    }
+    .about-me .row .col{
+        width: fit-content;
+    }
+    .skills .row{
+        display: block;
+    }
+    .skills .row .col{
+        width: 100%;
+    }
+    .skills .row .col .bar-skills{
+        width: 100%;
+    }
+    .cv .row{
+        display: block;
+    }
+    .cv .row col{
+        width: 90%;
+    }
+    .cv .row .right{
+        margin-left: 20px;
+    }
+    .portfolio .gallery{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .gallery{
+        display: block;
+        width: 100%;
+    }
+    .portfolio .gallery .project{
+        max-width: 100%;
+    }
+    .portfolio .gallery .project img{
+        width: 100%;
+    }
 }
