@@ -75,7 +75,7 @@ html{
     margin: auto;
     text-align: center;
     border-radius: 40px;
-    padding-top: 90px;
+    padding-top: 140px;
     justify-content: center;
     position: relative;
     z-index: 2;
@@ -112,4 +112,453 @@ html{
 }
 .content-banner .redes a:hover{
     background-color: #4cc756;
+}
+
+/* About me */ 
+.about-me{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.about-me .content-about-me{
+    max-width: 1100px;
+    margin: auto;
+}
+.about-me h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.content-about-me p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.content-about-me p span{
+    color: #4cc756;
+    font-weight: bold;
+}
+.about-me .row{
+    display: flex;
+}
+.about-me .row .col{
+    width: 50%;
+}
+.about-me .row .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.about-me .row .col ul{
+    list-style: none;
+}
+.row .col ul li{
+    margin: 12px 0;
+}
+.about-me .row .col ul li strong{
+    display: inline-block;
+    color: #4cc756;
+    width: 130px;
+}
+.about-me .row .col ul li span{
+    background-color: #4cc756;
+    padding: 3px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.content-hobbies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-hobbies .hobbies{
+    width: 100px;
+    height: 100px;
+    background-color: #252A2E;
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.content-hobbies .hobbies:hover{
+    background-color: #4cc756;
+}
+.content-hobbies .hobbies i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.about-me button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.about-me button a{
+    text-decoration: none;
+    color: #fff;
+}
+.about-me button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #4cc756;
+    z-index: -1;
+    transition: 1s;
+}
+.about-me button:hover .overlay{
+    width: 100%;
+}
+/* Seccion de skills */ 
+.skills{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+.skills .content-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.skills h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.skills .row{
+    display: flex;
+}
+.skills .row .col{ 
+    width: 50%;
+    padding: 0 20px;
+}
+.skills .row .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+}
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+.skills .skill .bar-skills{
+    height: 8px;
+    width: 80%;
+    background-color: #131517;
+    position: relative;
+    margin-bottom: 30px;
+}
+.skills .skill .progress{
+    background-color: #4cc756;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+.skills .skill .bar-skills span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: #4cc756;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+/* Dinamic class for js */ 
+.skills .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript{
+    0%{width: 0%;}
+    100%{width: 75%;}
+}
+.skills .skill .htmlcss{
+    width: 0%;
+    animation: 2s htmlcss forwards;
+}
+@keyframes htmlcss{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards;
+}
+@keyframes python{
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+.skills .skill .net{
+    width: 0%;
+    animation: 2s net forwards;
+}
+@keyframes net{
+    0%{width: 0%;}
+    100%{width: 30%;}
+}
+.skills .skill .php{
+    width: 0%;
+    animation: 2s php forwards;
+}
+@keyframes php{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+/* Professional Skills */
+.skills .skill .communication{
+    width: 0%;
+    animation: 2s communication forwards;
+}
+@keyframes communication {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .teamWork{
+    width: 0%;
+    animation: 2s teamWork forwards;
+}
+@keyframes teamWork {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.skills .skill .creativity{
+    width: 0%;
+    animation: 2s creativity forwards;
+}
+@keyframes creativity {
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
+.skills .skill .dedication{
+    width: 0%;
+    animation: 2s dedication forwards;
+}
+@keyframes dedication{
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+.skills .skill .adminProjects{
+    width: 0%;
+    animation: 2s adminProjects forwards;
+}
+@keyframes adminProjects{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+/*CV*/ 
+.cv{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+.cv .content-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.cv h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.cv .row{
+    display: flex;
+    justify-content: space-between;
+}
+.cv .row .col{
+    width: 49%;
+    padding: 0 20px;
+}
+.cv .row .col h3{
+    font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+.cv .row .left{
+    border-right: 2px solid #252A2E;
+}
+.cv .row .right{
+    border-left: 2px solid #252A2E;
+}
+.cv .row .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #252A2E;
+    position: relative;
+}
+.cv .row .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.cv .row .item .home{
+    color: #4cc756;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.cv .row .item .date{
+    display: block;
+    color:#4cc756;
+    margin-bottom: 10px;
+}
+.cv .row .item p{
+    line-height: 24px;
+}
+.cv .row .item{
+    border-right: 2px solid #4cc756;
+    margin-right: 20px;
+}
+.cv .row .item{
+    border-left: 2px solid #4cc756;
+    margin-left: 20px;
+}
+.cv .row .item .conect-left{
+    height: 2px;
+    background-color: #4cc756;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+.cv .row .item .conect-left .circle-left{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #4cc756;
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+.cv .row .item .conect-right{
+    height: 2px;
+    background-color: #4cc756;
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+.cv .row .item .conect-right .circle-right{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #4cc756;
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+/*Portfolio*/ 
+.portfolio{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 20px;
+}
+.portfolio .content-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.portfolio h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+.portfolio .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.portfolio .gallery .project{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+.portfolio .gallery .project img{
+    width: 100%;
+    display:block;
+}
+.portfolio .gallery .project .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}
+.portfolio .gallery .project .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.portfolio .gallery .project .overlay:hover{
+    opacity: 1;
+}
+.portfolio .gallery .project .overlay:hover h3{
+    margin-bottom: 0px;
+}
+/* footer */ 
+footer{
+    background-color: #252A2E;
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .social-networks a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}
+footer .up{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #4cc756;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
 }
