@@ -421,6 +421,7 @@ html{
 }
 .cv .row .item p{
     line-height: 24px;
+    text-align: justify;
 }
 .cv .row .left-data{
     border-right: 2px solid #4cc756;
@@ -527,7 +528,7 @@ html{
 }
 /* footer */ 
 footer{
-    background-color: #252A2E;
+    background-color: #1e2326;
     color: #fff;
     padding: 50px 0 30px 0;
     text-align: center;
