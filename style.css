@@ -131,7 +131,7 @@ html{
     padding: 20px 0;
 }
 .content-about-me p{
-    font: 18px;
+    font-size: 18px;
     line-height: 22px;
     margin-bottom: 20px;
     text-align: justify;
