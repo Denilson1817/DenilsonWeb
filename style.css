@@ -168,7 +168,6 @@ html{
     font-weight: bold;
     border-radius: 5px;
 }
-
 .content-hobbies{
     display: flex;
     flex-wrap: wrap;
@@ -587,9 +586,13 @@ footer .up{
     }
     .content-banner{
         max-width: 250px;
+        max-height: 100%;
     }
     .content-banner .redes a{
         margin: 20px 2px;
+    }
+    .content-hobbies{
+        justify-content: center;
     }
 }
 @media screen and (max-width:700px){
