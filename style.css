@@ -287,7 +287,7 @@ html{
 }
 @keyframes javascript{
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 80%;}
 }
 .skills .skill .htmlcss{
     width: 0%;
@@ -297,6 +297,14 @@ html{
     0%{width: 0%;}
     100%{width: 80%;}
 }
+.skills .skill .cplus{
+    width: 0%;
+    animation: 2s cplus forwards;
+}
+@keyframes cplus{
+    0%{width: 0%;}
+    100%{width: 70%;}
+}
 .skills .skill .python{
     width: 0%;
     animation: 2s python forwards;
@@ -305,19 +313,27 @@ html{
     0%{width: 0%;}
     100%{width: 50%;}
 }
-.skills .skill .net{
-    width: 0%;
-    animation: 2s net forwards;
-}
-@keyframes net{
-    0%{width: 0%;}
-    100%{width: 30%;}
-}
 .skills .skill .php{
     width: 0%;
     animation: 2s php forwards;
 }
 @keyframes php{
+    0%{width: 0%;}
+    100%{width: 40%;}
+}
+.skills .skill .reactjs{
+    width: 0%;
+    animation: 2s reactjs forwards;
+}
+@keyframes reactjs{
+    0%{width: 0%;}
+    100%{width: 50%;}
+}
+.skills .skill .angular{
+    width: 0%;
+    animation: 2s angular forwards;
+}
+@keyframes angular{
     0%{width: 0%;}
     100%{width: 60%;}
 }
@@ -329,6 +345,14 @@ html{
 @keyframes communication {
     0%{width: 0%;}
     100%{width: 80%;}
+}
+.skills .skill .english{
+    width: 0%;
+    animation: 2s english forwards;
+}
+@keyframes english {
+    0%{width: 0%;}
+    100%{width: 60%;}
 }
 .skills .skill .teamWork{
     width: 0%;
@@ -361,6 +385,14 @@ html{
 @keyframes adminProjects{
     0%{width: 0%;}
     100%{width: 80%;}
+}
+.skills .skill .methodologies{
+    width: 0%;
+    animation: 2s methodologies forwards;
+}
+@keyframes methodologies{
+    0%{width: 0%;}
+    100%{width: 70%;}
 }
 /*CV*/ 
 .cv{
