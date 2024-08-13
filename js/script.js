@@ -24,8 +24,8 @@ function barSkills(){
         skill[2].classList.add("cplus");
         skill[3].classList.add("python");
         skill[4].classList.add("php");
-        skill[5].classList.add("reactjs");
-        skill[6].classList.add("angular");
+        skill[5].classList.add("frameworks");
+        skill[6].classList.add("BD");
         skill[7].classList.add("communication");
         skill[8].classList.add("english");
         skill[9].classList.add("teamWork");

@@ -319,23 +319,23 @@ html{
 }
 @keyframes php{
     0%{width: 0%;}
-    100%{width: 40%;}
-}
-.skills .skill .reactjs{
-    width: 0%;
-    animation: 2s reactjs forwards;
-}
-@keyframes reactjs{
-    0%{width: 0%;}
     100%{width: 50%;}
 }
-.skills .skill .angular{
+.skills .skill .frameworks{
     width: 0%;
-    animation: 2s angular forwards;
+    animation: 2s frameworks forwards;
 }
-@keyframes angular{
+@keyframes frameworks{
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 65%;}
+}
+.skills .skill .BD{
+    width: 0%;
+    animation: 2s BD forwards;
+}
+@keyframes BD{
+    0%{width: 0%;}
+    100%{width: 70%;}
 }
 /* Professional Skills */
 .skills .skill .communication{
