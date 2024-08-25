@@ -36,12 +36,21 @@ html{
     list-style: none;
 }
 .content-header header nav ul li a{
+    font-size: 18px;
     text-align: none;
     color: #ffff;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
+}
+.content-header .idioma{
+    font-size: 20px;
+    color: #4cc756;
+    font-family: 'Righteous';
+}
+.content-header .idioma:hover{
+    color: #fff;
 }
 .content-header header nav ul li a:hover{
     color: #4cc756;
